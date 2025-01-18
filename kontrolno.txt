@@ -1,0 +1,42 @@
+Здравейте, господине. Извинявам се, че няма да успея да направя напълно задачата. Това ми пише като направя commit и съм се опитвал да го оправя и преди това, но не става:
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+
+И съответно не мога да направя нищо.Но все пак благодаряз яе го преглеждате.
+
+
+
+
+git clone https://github.com/bboris326/plsgoeasyonmewhilegrading12345.git     10 55
+git status       10 55
+git add -A        10 56
+git commit -m "letsac"      10 57
+
+git push   11 03
+git checkout -b koobbranch   11 04
+git commit -m "koob"   11 09
+git checkout -b river
+git add -A
+git commit -m "river" 11 23
+(променяме файловете)
+git checkout river   11 31
+git pull river 11 32
+git checkout koob.txt 11 33
+git pull koob   11 35
+git push    11:16
+git checkout main    11:19
+git pull main    11:19
+git checkout river     11:22
+git merge main    11:24
+git push -u origin river    11:24
+git commit -m "resolve the conflicts"   11 28
+git status 11 35
+git checkout -d koob 11 38
+git checkoud -d river 11 38
